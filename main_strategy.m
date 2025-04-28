@@ -7,7 +7,7 @@ optns = startRobotWorld;
 % Gray zone 1, easy 
 
 % Can create a flag in optns to choose whether to do static/automated.
-optns{'static'} = false;
+optns{'static'} = true; %m/.m
 
 if optns{'static'}
 
@@ -21,10 +21,10 @@ else
 end
 
 % Yellow zone 3, medium
-PickandPlaceARMChallenge('Zone3', optns);
-
-% Red zone 4, hard
-PickandPlaceARMChallenge('Zone4', optns);
-
-% Blue zone 5, very hard
-PickandPlaceARMChallenge('Zone5', optns);
+% PickandPlaceARMChallenge('Zone3', optns);
+% 
+% % Red zone 4, hard
+% PickandPlaceARMChallenge('Zone4', optns);
+% 
+% % Blue zone 5, very hard
+% PickandPlaceARMChallenge('Zone5', optns);

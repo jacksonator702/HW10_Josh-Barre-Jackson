@@ -66,6 +66,6 @@ function optns = startRobotWorld(masterhostIP, nodeIP, robotName)
     %% Reset the simulation
     
     disp('Resetting the world...');
-    resetWorld(optns);      % reset models through a gazebo service       
+    resetWorld(optns);      % reset models through a gazebo service
     
 end
